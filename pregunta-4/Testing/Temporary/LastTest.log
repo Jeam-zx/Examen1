@@ -1,0 +1,45 @@
+Start testing: Oct 18 14:38 -04
+----------------------------------------------------------
+1/1 Testing: UnitTests
+1/1 Test: UnitTests
+Command: "/mnt/c/Users/Jeamh/CLionProjects/Examen1/pregunta-4/runUnitTests"
+Directory: /mnt/c/Users/Jeamh/CLionProjects/Examen1/pregunta-4
+"UnitTests" start time: Oct 18 14:38 -04
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/Jeamh/CLionProjects/Examen1/pregunta-4/ext/googletest/googletest/src/gtest_main.cc
+[==========] Running 9 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 9 tests from Vector3DTest
+[ RUN      ] Vector3DTest.ConstructorYGetters
+[       OK ] Vector3DTest.ConstructorYGetters (0 ms)
+[ RUN      ] Vector3DTest.OperadorSuma
+[       OK ] Vector3DTest.OperadorSuma (0 ms)
+[ RUN      ] Vector3DTest.OperadorSumaConEscalar
+[       OK ] Vector3DTest.OperadorSumaConEscalar (0 ms)
+[ RUN      ] Vector3DTest.OperadorResta
+[       OK ] Vector3DTest.OperadorResta (0 ms)
+[ RUN      ] Vector3DTest.OperadorRestaConEscalar
+[       OK ] Vector3DTest.OperadorRestaConEscalar (0 ms)
+[ RUN      ] Vector3DTest.OperadorProductoVectorial
+[       OK ] Vector3DTest.OperadorProductoVectorial (0 ms)
+[ RUN      ] Vector3DTest.OperadorProductoConEscalar
+[       OK ] Vector3DTest.OperadorProductoConEscalar (0 ms)
+[ RUN      ] Vector3DTest.OperadorProductoEscalar
+[       OK ] Vector3DTest.OperadorProductoEscalar (0 ms)
+[ RUN      ] Vector3DTest.OperadorNorma
+[       OK ] Vector3DTest.OperadorNorma (0 ms)
+[----------] 9 tests from Vector3DTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 9 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 9 tests.
+<end of output>
+Test time =   0.12 sec
+----------------------------------------------------------
+Test Passed.
+"UnitTests" end time: Oct 18 14:38 -04
+"UnitTests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 18 14:38 -04
