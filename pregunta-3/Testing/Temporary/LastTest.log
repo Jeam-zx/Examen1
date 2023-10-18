@@ -1,0 +1,51 @@
+Start testing: Oct 18 14:33 -04
+----------------------------------------------------------
+1/1 Testing: UnitTests
+1/1 Test: UnitTests
+Command: "/mnt/c/Users/Jeamh/CLionProjects/Examen1/pregunta-3/runUnitTests"
+Directory: /mnt/c/Users/Jeamh/CLionProjects/Examen1/pregunta-3
+"UnitTests" start time: Oct 18 14:33 -04
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/Jeamh/CLionProjects/Examen1/pregunta-3/ext/googletest/googletest/src/gtest_main.cc
+[==========] Running 4 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 4 tests from BuddySystemTest
+[ RUN      ] BuddySystemTest.Construccion
+[       OK ] BuddySystemTest.Construccion (0 ms)
+[ RUN      ] BuddySystemTest.ReservaYLiberaRightMerge
+Bloque1 ya tiene memoria reservada
+El identificador dado no existe
+No se puede asignar un numero de bloques negativos
+No hay un bloque del tamano necesario para asignar
+[       OK ] BuddySystemTest.ReservaYLiberaRightMerge (0 ms)
+[ RUN      ] BuddySystemTest.ReservaYLiberaLeftMerge
+[       OK ] BuddySystemTest.ReservaYLiberaLeftMerge (0 ms)
+[ RUN      ] BuddySystemTest.RepresentacionDeMemoria
+REPRESENTACION DE LA MEMORIA:
+| F | F | F | F | F | F | F | F | F | F | F | F | F | F | F | F | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R | R | F | F | F | F | F | F | F | F | F | F | F | F | F | F | F | F | F | F | F | F | F | F | F | F | F | F | F | F | F | F | F | F |
+
+MEMORIA RESERVADA:
+	Nombre: Bloque2 
+		Tamaño : 16
+		Posicion en memoria (inicio) : 16
+
+BLOQUES LIBRES:
+	El bloque empieza en 0, es de tamaño 16
+	El bloque empieza en 32, es de tamaño 32
+
+[       OK ] BuddySystemTest.RepresentacionDeMemoria (0 ms)
+[----------] 4 tests from BuddySystemTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 4 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 4 tests.
+<end of output>
+Test time =   0.12 sec
+----------------------------------------------------------
+Test Passed.
+"UnitTests" end time: Oct 18 14:33 -04
+"UnitTests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 18 14:33 -04

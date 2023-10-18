@@ -1,0 +1,1 @@
+/usr/bin/c++ --coverage -fprofile-arcs -ftest-coverage CMakeFiles/BuddySystem.dir/src/BuddySystem.cpp.o CMakeFiles/BuddySystem.dir/src/main.cpp.o -o BuddySystem 
