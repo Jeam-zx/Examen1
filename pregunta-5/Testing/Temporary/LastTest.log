@@ -1,0 +1,57 @@
+Start testing: Oct 18 14:43 -04
+----------------------------------------------------------
+1/1 Testing: UnitTests
+1/1 Test: UnitTests
+Command: "/mnt/c/Users/Jeamh/CLionProjects/Examen1/pregunta-5/runUnitTests"
+Directory: /mnt/c/Users/Jeamh/CLionProjects/Examen1/pregunta-5
+"UnitTests" start time: Oct 18 14:43 -04
+Output:
+----------------------------------------------------------
+Running main() from /mnt/c/Users/Jeamh/CLionProjects/Examen1/pregunta-5/ext/googletest/googletest/src/gtest_main.cc
+[==========] Running 5 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 5 tests from DiagramaTTest
+[ RUN      ] DiagramaTTest.ejemploExamen
+Se definió el programa 'fibonacci', ejecutable en 'LOCAL'
+Si, es posible ejecutar el programa 'fibonacci'
+Se definió el programa 'factorial', ejecutable en 'Java'
+No es posible ejecutar el programa 'factorial'
+Se definió un interprete para 'Java', escrito en 'C'
+Se definió un traductor de 'Java' hacia 'C', escrito en 'C'
+Se definió un interprete para 'C', escrito en 'LOCAL'
+Si, es posible ejecutar el programa 'factorial'
+Se definió el programa 'holamundo', ejecutable en 'Python'
+Se definió un traductor de 'Python' hacia 'LOCAL', escrito en 'wtf42'
+No es posible ejecutar el programa 'holamundo'
+Se definió un traductor de 'wtf42' hacia 'Java', escrito en 'C'
+Si, es posible ejecutar el programa 'holamundo'
+[       OK ] DiagramaTTest.ejemploExamen (0 ms)
+[ RUN      ] DiagramaTTest.PuedeEjecutarse
+El programa 'numaleatorio' no existe.
+[       OK ] DiagramaTTest.PuedeEjecutarse (0 ms)
+[ RUN      ] DiagramaTTest.DefinirInterprete
+Se definió un interprete para 'JavaScript', escrito en 'Python'
+El intérprete de 'JavaScript' escrito en 'Python' ya existe
+[       OK ] DiagramaTTest.DefinirInterprete (0 ms)
+[ RUN      ] DiagramaTTest.DefinirPrograma
+Se definió el programa 'MiPrograma', ejecutable en 'C++'
+El programa 'MiPrograma' ya existe
+[       OK ] DiagramaTTest.DefinirPrograma (0 ms)
+[ RUN      ] DiagramaTTest.DefinirTraductor
+Se definió un traductor de 'C' hacia 'Python', escrito en 'C++'
+El traductor de 'C' a 'Python' escrito en 'C++' ya existe
+[       OK ] DiagramaTTest.DefinirTraductor (0 ms)
+[----------] 5 tests from DiagramaTTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 5 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 5 tests.
+<end of output>
+Test time =   0.17 sec
+----------------------------------------------------------
+Test Passed.
+"UnitTests" end time: Oct 18 14:43 -04
+"UnitTests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 18 14:43 -04
