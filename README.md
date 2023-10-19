@@ -6,6 +6,14 @@
 
 Para la primera pregunta fue utilizado el lenguaje de programación Java, y para las tercera, cuarta y quinta pregunta fue utilizado el lenguaje de programación C++.
 
+## Codigos fuentes
+
+Para cada pregunta, su codigo fuente se encuentra en dentro de su carpeta correspondiente en la carpeta src. Por ejemplo, para la pregunta 3 el código fuente está en
+
+```
+./pregunta-3/src
+```
+
 ## Como ejecutar el programa
 
 ### Primera Pregunta (Java)
